@@ -203,7 +203,7 @@ def createTimeline(data, settings):
 
 if __name__ == '__main__':
     start = time.time()
-    FILE_NAMES = ['traitors']
+    FILE_NAMES = []
 
     for FILE_NAME in FILE_NAMES:
         with open(f'data/timelines/{FILE_NAME}.json') as f:
